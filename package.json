@@ -1,0 +1,28 @@
+{
+  "name": "compute-quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ignore-path .gitignore --ext .ts,.tsx ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@oceanprotocol/lib": "^2.5.2",
+    "@types/node": "^18.11.11",
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "@typescript-eslint/parser": "^5.45.1",
+    "crypto-js": "^4.1.1",
+    "eslint": "^8.29.0",
+    "eslint-config-oceanprotocol": "^2.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3",
+    "web3": "^1.8.1",
+    "web3-utils": "^1.8.1"
+  }
+}
